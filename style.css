@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  overflow: hidden;
+}
+.webgl{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+padding: 10px;
+  z-index: 2;
+}
+ h1{
+  color: aliceblue;
+}
+.nav-bar{
+  color:aliceblue;
+  z-index:4;
+  display: flex;
+  gap:35px;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+main{
+  position: absolute;
+  z-index: 4;
+  top:55%;
+  left:30%;
+}
+.intro{
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 55px;
+}
+.name{
+  margin-top:50px;
+  margin-left: 10px;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 55px;
+} 
